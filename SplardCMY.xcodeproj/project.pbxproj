@@ -82,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7707522540A39400C6F801 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F77073725408DEF00C6F801 /* AppColors.swift */,
+				6F96C007253F440F00D769B7 /* Splard.swift */,
+				6F77072F25408B5200C6F801 /* Deck.swift */,
+				6F96C00C253F447600D769B7 /* Type.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6F96BFC6253F43FB00D769B7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +116,8 @@
 		6F96BFD1253F43FB00D769B7 /* SplardCMY */ = {
 			isa = PBXGroup;
 			children = (
-				6F77073725408DEF00C6F801 /* AppColors.swift */,
+				6F7707522540A39400C6F801 /* Model */,
 				6F96BFD2253F43FB00D769B7 /* SplardCMYApp.swift */,
-				6F96C007253F440F00D769B7 /* Splard.swift */,
-				6F77072F25408B5200C6F801 /* Deck.swift */,
-				6F96C00C253F447600D769B7 /* Type.swift */,
 				6F96C000253F440300D769B7 /* View */,
 				6F96BFD6253F43FC00D769B7 /* Assets.xcassets */,
 				6F96BFDB253F43FC00D769B7 /* Info.plist */,
